@@ -1,0 +1,21 @@
+ img.card-img-top {
+   object-fit: contain;
+ }
+
+ .gif-card {
+   height: 400px;
+   width: 300px;
+   overflow: hidden;
+ }
+
+ #gif-container {
+   display: flex;
+ }
+
+ .gif-box {
+   width: 100%;
+   height: 100%;
+   background-size: contain;
+   background-repeat: no-repeat;
+   background-position: center;
+ }
