@@ -2,14 +2,20 @@
    object-fit: contain;
  }
 
+ .category-btn {
+   margin: 5px;
+ }
+
  .gif-card {
-   height: 400px;
-   width: 300px;
+   height: 200px;
+   width: 200px;
    overflow: hidden;
+   margin: 20px;
  }
 
  #gif-container {
    display: flex;
+   flex-wrap: wrap;
  }
 
  .gif-box {
@@ -18,4 +24,11 @@
    background-size: contain;
    background-repeat: no-repeat;
    background-position: center;
+ }
+
+ #search-button {}
+
+ .card-body {
+   background: #fafaff;
+   border-top: 1px solid #cccccc;
  }
