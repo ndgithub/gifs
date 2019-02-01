@@ -6,6 +6,10 @@
    margin: 5px;
  }
 
+ .search-button {
+   background: green;
+ }
+
  .gif-card {
    height: 200px;
    width: 200px;

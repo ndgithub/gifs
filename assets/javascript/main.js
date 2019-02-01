@@ -44,14 +44,12 @@ function setImgClickListeners() {
 }
 
 function setAddTopicClickListeners() {
-
   $('#topic-input').on('keyup', function (e) {
     var input = $('#topic-input').val();
     if (e.which === 13) {
       if (input) addTopic(input);
       console.log(input);
     }
-
   })
   $('#search-button').on('click', function () {
     var input = $('#topic-input').val();
